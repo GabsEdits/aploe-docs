@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
-  title: "Aplós Template",
+  title: "Aplóe",
   description:
     "This is a cool template for VitePress, it has a lot of features, and it's easy to use",
 
@@ -11,11 +11,12 @@ export default defineConfig({
   cleanUrls: true,
 
   themeConfig: { // Main Theme Config
-    author: "Your Name", // Change this to your name
+    author: "Gabriel Cozma", // Change this to Gabriel Cozma
     colorScheme: {
       accent: "#c1b134", // Change this to your accent color (Doesn't work currently, will be fixed in the future. For now, just change the color in the custom.scss file)
     },
     nav: {
+      show: false,
       links: [
         { text: "Guide", link: "https://aplos.gxbs.me/guide/" },
         { text: "Demo", link: "/demo" },
@@ -32,7 +33,7 @@ export default defineConfig({
       // To change the text of any of these, just change the text in the quotes, if you want to disable it entirely, set show to false
       madeby: {
         show: true,
-        name: "Your Name",
+        name: "Gabs",
         link: "https://yourwebsite.com",
       },
     },
@@ -47,7 +48,7 @@ export default defineConfig({
     },
   },
   head: [
-    ["meta", { name: "author", content: "Your Name" }], // Change this to your name
+    ["meta", { name: "author", content: "Gabriel Cozma" }], // Change this to Gabriel Cozma
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#ff3e00" }], // Your theme color
     ["meta", { name: "og:type", content: "website" }],
@@ -79,14 +80,14 @@ export default defineConfig({
     ["meta", { name: "twitter:url", content: "https://aplos.gxbs.me" }], // Change this to your domain
   ],
   sitemap: { // Change this to your domain
-    hostname: "https://template.aplos.gxbs.me",
+    hostname: "https://aploe.gxbs.me",
   },
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
           additionalData: `
-          $color-accent: #9eb036;
+          $color-accent: #90B494;
           `,
         },
       },
