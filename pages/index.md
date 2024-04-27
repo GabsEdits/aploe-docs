@@ -42,7 +42,7 @@ Aplóe has a Component-Based Architecture ensuring that it can be as low mainten
 By it's words, Aplóe is a design language, following specific styles to make the page as unified as possible. The goal of the framework is to make it as adaptive and easy to read on any devices, making sure that anyone can access the information from anywhere in the world. That's also why translation are such a big part of the project. To make the design work, much of the basic styles were taken from [Aplos](https://aplos.gxbs.me), the VitePress theme. With that creating simple blend cards as elements to create a visually appiling for of an website. 
 
 ::: details Example of such an layout
-![An example of such an layout](./LayoutExample.png) {#layout}
+![An example of such an layout](/LayoutExample.png) {#layout}
 :::
 
 ## Sponsors
